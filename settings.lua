@@ -416,5 +416,15 @@ data:extend({
     minimum_value = 0,
     maximum_value = 10000,
   },
+  ---- Stacker Angels Smelting ----
+  {
+    type = "int-setting",
+    name = "ReStack-stacker-angels-smelting",
+    order = "ja",
+    setting_type = "startup",
+    default_value = 0, -- base: dependend on stacker settings
+    minimum_value = 0,
+    maximum_value = 10000,
+  },
 
 })
